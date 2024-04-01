@@ -1,0 +1,106 @@
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background-image: linear-gradient(180deg, #892be295 0%, rgb(255, 255, 255) 75%);
+    background-attachment: scroll;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+.subheader, .subquote {
+    text-align: center;
+    padding: 30px
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: -2px;
+}
+
+.header p {
+    padding-bottom: 15px;
+    font-style: italic;
+    letter-spacing: 0.35em;
+}
+
+q {
+    padding: 30px 0;
+}
+
+img.header {
+    width: 90%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.section-2-title {
+    padding: 0px 30px;
+}
+
+hr {
+    opacity: 60%;
+    border-style: dotted
+}
+
+.accomplishment {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px 10px;
+}
+
+@media screen and (max-width: 920px) {
+    .accomplishment {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+img.left, img.right {
+    width: 80%;
+}
+
+.left, .right {
+    text-align: center;
+    
+}
+
+img.left, img.right {
+    border: 5px solid blueviolet;
+}
+
+ul {
+    text-align: left;
+    line-height: 1.8em;
+}
+
+footer {
+    max-width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: blueviolet;
+    margin-top: 15px;
+    padding: 10px 30px;
+    letter-spacing: .2em;
+    width: 100%;
+}
